@@ -1,0 +1,150 @@
+.bloque1 {
+    margin-top: 10%;
+}
+
+.bloque2 {
+    margin-top: 30%;
+}
+
+.morado {
+    color: #41076d;
+}
+
+.boton {
+    background-color: #41076d;
+}
+
+.card1 {
+    background-color: #588552;
+}
+
+.circulo1 {
+    background-color: darkgreen;
+}
+
+.card2 {
+    background-color: #cdbf00;
+}
+
+.circulo2 {
+    background-color: #e8dd4a;
+}
+
+.card3 {
+    background-color: #8a7799;
+}
+
+.circulo3 {
+    background-color: #41076d;
+}
+
+.titulo {
+    font-size: 78pt;
+}
+
+.btn-circle.btn-xl {
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 18px;
+    line-height: 1.33;
+}
+
+.btn-circle {
+    width: 45px;
+    height: 45px;
+    padding: 6px 0px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.42857;
+}
+
+.bor {
+    border-radius: 35px;
+}
+
+.ico {
+    color: white;
+}
+
+.aum {
+    font-size: 24pt;
+}
+
+.aum1 {
+    font-size: 16pt;
+}
+
+.tam {
+    height: 15%;
+    width: 15%;
+}
+
+.social {
+    position: fixed;
+    /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+    right: 2%;
+    /* Establecemos la barra en la izquierda */
+    top: 200px;
+    /* Bajamos la barra 200px de arriba a abajo */
+    z-index: 2000;
+    /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social ul li a {
+    display: inline-block;
+    color: #fff;
+    background: rgb(0, 0, 0) transparent;
+    padding: 10px 15px;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    /* Establecemos una transición a todas las propiedades */
+}
+
+.social ul li .icon-facebook {
+    background: rgb(0, 0, 0) transparent;
+}
+
+
+/* Establecemos los colores de cada red social, aprovechando su class */
+
+.social ul li .icon-twitter {
+    background: rgb(0, 0, 0) transparent;
+}
+
+.social ul li .icon-instagram {
+    background: rgb(0, 0, 0) transparent;
+}
+
+.puntos {
+    position: fixed;
+    /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+    right: 2%;
+    /* Establecemos la barra en la izquierda */
+    top: 400px;
+    /* Bajamos la barra 200px de arriba a abajo */
+    z-index: 2000;
+    /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+
+.puntos ul {
+    list-style: none;
+}
+
+.puntos ul li a {
+    display: inline-block;
+    color: #fff;
+    background: rgb(0, 0, 0) transparent;
+    /*background-color: rgba(0,0,255,0.5);*/
+    padding: 10px 15px;
+    text-decoration: none;
+    /* Establecemos una transición a todas las propiedades */
+}
